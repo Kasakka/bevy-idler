@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "libs/generators"
+    "libs/generator"
 ]
 
 [package]
@@ -21,4 +21,4 @@ opt-level = 3
 
 [dependencies]
 bevy = {version = "0.8.1", features = ["dynamic"]}
-generators = { path = "./libs/generators"}
+generator = { path = "libs/generator" }

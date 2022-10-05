@@ -190,7 +190,7 @@ name = "bevy-idler"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "generators",
+ "generator",
 ]
 
 [[package]]
@@ -1449,7 +1449,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "generators"
+name = "generator"
 version = "0.1.0"
 
 [[package]]
