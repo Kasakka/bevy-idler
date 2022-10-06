@@ -32,14 +32,3 @@ pub struct AmountMultiplier(pub f32);
 //Cooldown between cycles in seconds
 #[derive(Component)]
 pub struct Cooldown(pub i32);
-
-/*#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}*/

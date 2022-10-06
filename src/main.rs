@@ -1,12 +1,19 @@
 use bevy::prelude::*;
-use building::*;
+mod building;
+mod components;
 
 struct BuildingPlugin;
 
 impl Plugin for BuildingPlugin {
     fn build(&self, app: &mut App) {
-        app.add_startup_system(add_building)
-            .add_system(print_building);
+        app.add_startup_system(building::add_building)
+            .add_system(building::get_name)
+            .add_system(building::get_price)
+            .add_system(building::get_upgrade_level)
+            .add_system(building::get_base_amount)
+            .add_system(building::get_amount_multiplier)
+            .add_system(building::get_currency)
+            .add_system(building::get_cooldown);
     }
 }
 

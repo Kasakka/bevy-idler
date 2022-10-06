@@ -190,8 +190,6 @@ name = "bevy-idler"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "building",
- "components",
 ]
 
 [[package]]
@@ -877,14 +875,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a"
 
 [[package]]
-name = "building"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "components",
-]
-
-[[package]]
 name = "bumpalo"
 version = "3.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1036,13 +1026,6 @@ checksum = "35ed6e9d84f0b51a7f52daf1c7d71dd136fd7a3f41a8462b8cdb8c78d920fad4"
 dependencies = [
  "bytes",
  "memchr",
-]
-
-[[package]]
-name = "components"
-version = "0.1.0"
-dependencies = [
- "bevy",
 ]
 
 [[package]]
